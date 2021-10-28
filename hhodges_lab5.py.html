@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>hhodges_lab5.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #808080;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #cc7832;}
+.s3 { color: #6a8759;}
+.s4 { color: #6897bb;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+hhodges_lab5.py</font>
+</center></td></tr></table>
+<pre><span class="s0"># Hannah Hodges</span>
+<span class="s0"># CS 151 Dr. Rajeev</span>
+<span class="s0"># 10/27/2021</span>
+<span class="s0"># Lab 5</span>
+<span class="s0"># define the function of each part of the demensions of the floor</span>
+
+<span class="s2">def </span><span class="s1">hardwoodfloors (width</span><span class="s2">, </span><span class="s1">length</span><span class="s2">, </span><span class="s1">hardwoodCost):</span>
+    <span class="s1">h= float(input(</span><span class="s3">&quot;Enter length:&quot;</span><span class="s1">))</span>
+    <span class="s1">w= float(input(</span><span class="s3">&quot;Enter width:&quot;</span><span class="s1">))</span>
+    <span class="s1">perimeter= </span><span class="s4">2</span><span class="s1">*(h+w)</span>
+    <span class="s1">hardwoodCost= perimeter * </span><span class="s4">1.39</span>
+    <span class="s2">return </span><span class="s1">(hardwoodCost)</span>
+<span class="s2">def </span><span class="s1">carpet (width</span><span class="s2">, </span><span class="s1">length</span><span class="s2">, </span><span class="s1">carpetCost):</span>
+    <span class="s1">c= float(input(</span><span class="s3">&quot;Enter length:&quot;</span><span class="s1">))</span>
+    <span class="s1">p= float(input(</span><span class="s3">&quot;Enter width:&quot;</span><span class="s1">))</span>
+    <span class="s1">c_perimeter= </span><span class="s4">2</span><span class="s1">*(c+p)</span>
+    <span class="s1">carpetCost= c_perimeter * </span><span class="s4">3.99</span>
+    <span class="s2">return </span><span class="s1">(carpetCost)</span>
+<span class="s2">def </span><span class="s1">tile (width</span><span class="s2">, </span><span class="s1">length</span><span class="s2">, </span><span class="s1">tileCost):</span>
+    <span class="s1">t= float(input(</span><span class="s3">&quot;Enter length:&quot;</span><span class="s1">))</span>
+    <span class="s1">i= float(input(</span><span class="s3">&quot;Enter width:&quot;</span><span class="s1">))</span>
+    <span class="s1">tile_perimeter: </span><span class="s4">2</span><span class="s1">*(t+i)</span>
+    <span class="s1">tileCost= tile_perimeter * </span><span class="s4">4.99</span>
+    <span class="s2">return </span><span class="s1">(tileCost)</span>
+<span class="s2">def </span><span class="s1">totalCost (tileCost</span><span class="s2">, </span><span class="s1">carpetCost</span><span class="s2">, </span><span class="s1">hardwoodCost):</span>
+    <span class="s1">tC= (tileCost + carpetCost + hardwoodCost)</span>
+    <span class="s1">print (tC)</span>
+<span class="s1">print(</span><span class="s3">&quot;This is the cost of the room&quot;</span><span class="s1">)</span>
+
+
+
+
+
+
+
+
+</pre>
+</body>
+</html>
